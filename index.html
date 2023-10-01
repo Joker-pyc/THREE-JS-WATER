@@ -7,7 +7,18 @@
     <link rel="stylesheet" href="src/style.css">
 </head>
 <body>
-   new
+    <div id="canvas-container"></div>
+    <div id="ui-container">
+        <h1>Water Simulation</h1>
+        <label for="wave-amplitude">Wave Amplitude:</label>
+        <input type="range" id="wave-amplitude" min="0" max="1" step="0.01" value="0.4">
+        <label for="wave-speed">Wave Speed:</label>
+        <input type="range" id="wave-speed" min="0" max="1" step="0.01" value="0.1">
+        <label for="wave-frequency">Wave Frequency:</label>
+        <input type="range" id="wave-frequency" min="0" max="1" step="0.01" value="0.5">
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+   
     <script src="src/main.js"></script>
 </body>
 </html>
